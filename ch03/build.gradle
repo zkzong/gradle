@@ -5,7 +5,7 @@ plugins {
 group 'com.zkzong'
 version '1.0-SNAPSHOT'
 
-//sourceCompatibility = 1.8
+sourceCompatibility = 1.8
 
 repositories {
 //    mavenCentral()
@@ -16,6 +16,7 @@ repositories {
 
 dependencies {
     compile('org.springframework.boot:spring-boot-starter-web:1.5.10.RELEASE')
+    compile('org.springframework.boot:spring-boot-starter-security:1.5.10.RELEASE')
     compile('org.springframework.boot:spring-boot-starter-data-jpa:1.5.10.RELEASE')
     compile('org.springframework.boot:spring-boot-starter-thymeleaf:1.5.10.RELEASE')
     compile('com.h2database:h2:1.4.196')
