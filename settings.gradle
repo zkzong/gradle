@@ -4,4 +4,5 @@ include 'ch03'
 include 'ch04'
 include 'ch04-secured'
 include 'ch04-unsecured'
+include 'ch07-actuator'
 
