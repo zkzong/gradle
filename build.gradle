@@ -1,0 +1,49 @@
+plugins {
+    id 'java'
+}
+
+allprojects {
+}
+
+subprojects {
+//    plugin apply: 'java'
+//    plugin apply: 'idea'
+
+    // JVM 版本号要求
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+
+    ext {
+        springBootVersion = '1.5.10.RELEASE'
+    }
+
+//    dependencies {
+//        compile('org.springframework.boot:spring-boot-starter-web:1.5.10.RELEASE')
+//        compile('org.springframework.boot:spring-boot-starter-data-jpa:1.5.10.RELEASE')
+//        compile('org.springframework.boot:spring-boot-starter-thymeleaf:1.5.10.RELEASE')
+//
+//        testCompile('org.springframework.boot:spring-boot-starter-test:1.5.10.RELEASE')
+//    }
+}
+
+group 'com.zkzong'
+version '1.0-SNAPSHOT'
+
+//sourceCompatibility = 1.8
+
+repositories {
+//    mavenCentral()
+    maven {
+        url "http://maven.aliyun.com/nexus/content/groups/public/"
+    }
+}
+
+//dependencies {
+//    compile('org.springframework.boot:spring-boot-starter-web:1.5.10.RELEASE')
+//	compile('org.springframework.boot:spring-boot-starter-security')
+//    compile('org.springframework.boot:spring-boot-starter-thymeleaf:1.5.10.RELEASE')
+//    compile('org.springframework.boot:spring-boot-starter-data-jpa:1.5.10.RELEASE')
+//	compile('com.h2database:h2')
+
+//    testCompile('org.springframework.boot:spring-boot-starter-test:1.5.10.RELEASE')
+//}
