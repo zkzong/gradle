@@ -2,17 +2,17 @@ plugins {
     id 'java'
 }
 
-group 'com.zkzong'
-version '1.0-SNAPSHOT'
+//group 'com.zkzong'
+//version '1.0-SNAPSHOT'
 
 //sourceCompatibility = 1.8
 
-repositories {
-//    mavenCentral()
-    maven {
-        url "http://maven.aliyun.com/nexus/content/groups/public/"
-    }
-}
+//repositories {
+////    mavenCentral()
+//    maven {
+//        url "http://maven.aliyun.com/nexus/content/groups/public/"
+//    }
+//}
 
 dependencies {
     compile('org.springframework.boot:spring-boot-starter-web:1.5.10.RELEASE')
