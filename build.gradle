@@ -44,13 +44,6 @@ subprojects {
         mavenCentral()
     }
 
-    dependencies {
-        compile("org.springframework.boot:spring-boot-starter-web:$springBootVersion")
-        compile("org.springframework.boot:spring-boot-starter-data-jpa:$springBootVersion")
-        compile("org.springframework.boot:spring-boot-starter-thymeleaf:$springBootVersion")
-
-        testCompile("org.springframework.boot:spring-boot-starter-test:$springBootVersion")
-    }
 }
 
 repositories {
